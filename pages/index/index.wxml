@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="container-home">
+  <view class="logo">
+    <image src="../../resources/images/logo.png"></image>
+    <text>动植检查验台</text>
+  </view>
+  <view class="section">
+    <text class="iconfont icon-user"></text>
+    <input placeholder="用户名" />
+  </view>
+  <view class="section">
+    <text class='iconfont icon-password'></text>
+    <input placeholder="密码" />
+  </view>
+  <view class="section-checked">
+    <label bindtap="rememberPwd">
+        <text class="{{checked ? 'iconfont icon-checked' : 'iconfont icon-unchecked'}}"></text><text>记住密码</text>
+    </label>
+  </view>
+  <view class="section-btn">
+    <text bindtap="login">登 录</text>
+  </view>
+  <text class='copy-right'>版权所有 中云智慧v1.0.1</text>
+</view>
